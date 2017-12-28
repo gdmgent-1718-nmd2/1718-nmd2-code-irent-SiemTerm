@@ -1,0 +1,84 @@
+---
+layout   : default
+permalink: /product/betalen.html
+# Custom Page Variables
+# ─────────────────────
+title: Soccer Shoe Rent
+---
+
+<div class="container my-5" style="background-color: rgba(19,2,41,0.8); margin-top:150px !important;">
+	<div>
+		<h5 class="col-10 mx-auto stap">STAP 3 VAN 3</h5>
+	</div>
+	<div class="row">
+		<h3 class="my-5 col-12 ondertitel">Betaalgegevens</h3>
+	</div>
+	<div>
+		<div class="row center_block">
+			<form class="col-lg-8 col-md-9 col-sm-6 check_md" method="post" action="https://formspree.io/">
+				<div class=""> <label style="color:#00eef5;">Naam Kaarthouder</label>
+				<input type="Naam Kaarthouder" name="Naam Kaarthouder" class="form-control" placeholder="Naam Kaarthouder"> </div>
+			</form>
+		</div>
+		<div class="row center_block">
+			<form class="col-lg-8 col-md-9 col-sm-6 check_md" method="post" action="https://formspree.io/">
+				<div class="mb-3"> <label style="color:#00eef5;">Kaartnummer</label>
+				<input type="Kaartnummer" name="Kaartnummer" class="form-control" placeholder="Kaartnummer"> </div>
+			</form>
+		</div>
+		<div><img class="text-right col-lg-8 col-sm-6 check_md center_block" src="https://s3.amazonaws.com/hiresnetwork/imgs/cc.png" style="max-width: 250px; padding-bottom: 20px;">
+	</div>
+	<div class="center_block">
+		<label class="col-sm-3 control-label check_md" for="expiry-month" style="color:#00eef5;">Vervaldatum</label>
+		<div class="col-lg-8 col-md-9 col-sm-6 check_md">
+			<div class="row">
+				<div class="col-xs-3 ml-lg-3">
+					<select class="form-control" data-stripe="exp-month" id="card-exp-month">
+						<option>Maand</option>
+						<option value="01">jan (01)</option>
+						<option value="02">feb (02)</option>
+						<option value="03">mrt (03)</option>
+						<option value="04">apr (04)</option>
+						<option value="05">Mei (05)</option>
+						<option value="06">jun (06)</option>
+						<option value="07">jul (07)</option>
+						<option value="08">aug (08)</option>
+						<option value="09">sept (09)</option>
+						<option value="10">okt (10)</option>
+						<option value="11">nov (11)</option>
+						<option value="12">dec (12)</option>
+					</select>
+				</div>
+				<div class="col-xs-3 ml-3">
+					<select class="form-control" data-stripe="exp-year" id="card-exp-year">
+						
+						<option value="2017">2017</option>
+						<option value="2018">2018</option>
+						<option value="2019">2019</option>
+						<option value="2020">2020</option>
+						<option value="2021">2021</option>
+						<option value="2022">2022</option>
+						<option value="2023">2023</option>
+						<option value="2024">2024</option>
+						<option value="2016">2025</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="center_block mt-3 mb-5 col-md-9 col-sm-6 check_md">
+		<label class="col-sm-6 control-label" for="cvv" style="color:#00eef5;">CVV</label>
+		<div class="col-sm-3">
+			<input class="form-control" stripe-data="cvc" id="card-cvc" type="text">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 btn_mob1">
+			<a class="btn btn-outline-primary btn-lg ga_naar mb-5 btn_left" style=";" href="./checkout.html">Terug</a>	
+		</div>
+		<div class="col-md-6 btn_mob1 bottom_block">
+			<a class="btn btn-outline-primary btn-lg ga_naar mb-5 btn_right" style=";" href="./bedanking.html">Betalen</a>	
+		</div>
+	</div>	
+</div>
+

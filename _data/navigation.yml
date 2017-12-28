@@ -1,0 +1,22 @@
+- title: Home
+  url: /index.html
+- title: Product
+  url: /product.html
+  crosslinks:
+    - title: Product
+      url: /product/product.html
+    - title: Winkelwagen
+      url: /product/winkelwagen.html
+    - title: Checkout
+      url: /product/checkout.html
+    - title: Betalen
+      url: /product/betalen.html
+    - title: Bedanking
+      url: /product/bedanking.html
+- title: Over ons
+  url: /overons.html
+- title: Contact
+  url: /contact.html
+  crosslinks:
+    - title: Contact Bedanking
+      url: /contact/contact-bedanking.html

@@ -1,13 +1,118 @@
 ---
 layout   : default
-permalink: /
+permalink: /index.html
 # Custom Page Variables
 # ─────────────────────
-title: Bootstrap 4 &mdash; Voorbeeld
+title: Soccer Shoe Rent
 ---
-<div class="jumbotron">
-    <h1 class="display-3">{{ page.title }}</h1>
-</div>
-<div class="container">
-    <a class="btn btn-primary" href="http://getbootstrap.com/docs/4.0/getting-started/introduction/">Bootstrap 4 documentation</a>
+
+<div class="container cont_back mt-5 mb-5 rounded" style="background-color: rgba(19,2,41,0.8); margin-top:150px !important;">
+	<link href="css/half-slider.css" rel="stylesheet">
+	<div class="col-sm-12 text-white mt-5 text-center welkom">
+		<h4 class="display-4 mb-3 pt-5">Welkom!</h4>
+		<p class="lead mb-2">Welkom bij Soccer Shoe Rent! Geef voetbalschoenen het leven dat ze verdienen.</p>
+	</div>
+	<div>
+		<img class="nike_home mx-auto" src="{{ site.baseurl }}/images/Nikesirent.png" style="width: 380px;">
+	</div>
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<!-- Slide One - Set the background image for this slide in the line below -->
+			<div class="carousel-item active" style="background-image: url("")">
+				<img class="nike" src="{{ site.baseurl }}/images/nikes1.png" alt="">
+				<div class="carousel-caption d-none d-md-block">
+					<div class="row">
+						<div class="col-md-6 text-white ">
+							<h1 class="display-3 mb-4 text-right"></h1>
+							<p class="lead mb-5"> </p>							
+						</div>
+						<div class="col-lg-6 col-sm-12 text-white mt-5">
+							<h4 class="display-4 mb-3 mt-5 text-right">Welkom!</h4>
+							<p class="lead mb-2 text-right">Welkom bij Soccer Shoe Rent! Geef voetbalschoenen het leven dat ze verdienen.
+								<br>Geef de schoen die je huurt een eigen touch door hem te personaliseren. </p>
+						<a class="btn btn-lg btn-outline-light pers_home mb-5 mt-3 text-right float-right" href="#">Personaliseer je schoen -></a>								
+						</div>		
+					</div>	
+				</div>
+			</div>
+			<!-- Slide Two - Set the background image for this slide in the line below -->
+			<div class="carousel-item" style="">
+				<img class="nike" src="{{ site.baseurl }}/images/nikes2.png" alt="nike2">
+				<div class="carousel-caption d-none d-md-block">
+					<div class="row">
+						<div class="col-lg-6 col-sm-12 text-white">
+							<h4 class="display-4 mb-3 text-lg-left">Gratis testen!</h4>
+							<p class="lead mb-2 text-lg-left">Onze schoenen hebben slechts één maat! Probeer </p>
+						<a class="btn btn-lg btn-outline-light pers_home mb-5 mt-3 float-lg-left text-lg-right" href="#">Personaliseer je schoen -></a>								
+						</div>
+						<div class="col-md-6 text-white ">
+							<h1 class="display-3 mb-4 text-right"></h1>
+							<p class="lead mb-5"> </p>							
+						</div>		
+					</div>						
+				</div>
+			</div>
+			<!-- Slide Three - Set the background image for this slide in the line below -->
+			<div class="carousel-item">
+				<img class="nike" src="{{ site.baseurl }}/images/nikes3.png" alt="nike3">
+				<div class="carousel-caption d-none d-md-block">
+					<div class="row">
+						<div class="col-md-5 text-white ">
+							<h1 class="display-3 mb-4 text-right"></h1>
+							<p class="lead mb-5"> </p>							
+						</div>
+						<div class="col-lg-7 col-sm-12 text-white mt-5">
+							<h4 class="display-4 mb-3 mt-5 text-right">Personaliseer <br> je schoen!</h4>
+							<p class="lead mb-2 text-right"> Geef voetbalschoenen het leven dat ze verdienen.
+								<br>Geef de schoen die je huurt een eigen touch door hem te personaliseren. </p>
+						<a class="btn btn-lg btn-outline-light pers_home mb-5 mt-3 text-right" href="#">Personaliseer je schoen -></a>								
+						</div>		
+					</div>	
+				</div>
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<div class="container mx-auto">
+		<a class="btn btn-outline-primary btn-lg ga_naar col-lg-3 col-sm-12 mt-5 ml-lg-5" style=";" href="./product.html">Ga naar product</a>
+	</div>
+	<div class="col-lg-6 col-sm-12 mt-5 ml-lg-5">
+		<h1 class="mb-3" style="color: #00eef5;">ONS VERHAAL!</h1>
+		<p>Wij zijn twee voetballers die te weinig tijd hebben om te voetballen omda ze teveel schoolwerk hebben. Aangezien het schoolleven niet goedkoop is verhuren wij onze voebalschoenen. Je kan zelf de noppen kiezen en hem eventueel personaliseren.</p>
+	</div>
+	<div class="row">
+		<div class="col-lg-6 mess_kader my-5">
+			<div class="">
+				<img class="rounded float-lg-left messi" src="images/messi1.jpg" alt="Messi" style="">
+			</div>
+			<div>
+				<img class="rounded home_grond" src="images/index_grond.png" alt="ondergrond" style="">
+			</div>
+			<div class="mx-auto Jouw_g rounded">
+				<h5 class="">JOUW GROND,<br>JOUW SPEELSTIJL!</h5>
+				<a class="Jouw_g2 btn btn-primary naar_prd" href="./product.html">Naar product</a> 
+			</div>
+		</div>
+		<div class="ronaldo">
+			<img class="float-right" src="images/ronaldo1.png" alt="Christiano Ronaldo" style="width: 300px; height: auto;">
+		</div>
+		<div class="rnld_text">
+			<div class="col-12 mb-5 mx-5">
+				<h3>“BESTE SCHOENEN OOIT!”</h3>
+				<p>CHRISTIANO RONALDO</p>
+			</div> 
+		</div>
+	</div>
 </div>

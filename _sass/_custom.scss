@@ -1,0 +1,502 @@
+/* Gebruikte kleuren */
+
+/* oranje: */ #ee725a
+/* donkerpaars: */ #130229
+/* paars: */ #4c148b
+/* lichtpaars */ #7b148b
+/* fluo blauw */ #00eef5
+/* ander paars */ #6B4CF2
+
+/* index */
+/* index */
+/* index */
+
+.Jouw_g2 {
+	margin-left:  !important;
+}
+
+@media (min-width: 500px) {
+	.nike_home{
+		display: none;
+	}
+}
+
+
+@media (max-width: 500px) {
+	.slide{
+		display: none;
+	}
+}
+
+@media (min-width: 950px) {
+	.nike {
+		width: 1300px !important;
+	}
+}
+
+@media (max-width: 500px) {
+	.carousel-item {
+		height: 10rem !important;
+	}
+}
+
+@media (max-width: 500px) {
+	.Jouw_g {
+		margin-top: 2em;
+		background-color: #4c148b;
+		padding-left: 5rem;
+		padding-top: 3rem;
+		box-sizing: border-box;
+		width: 313px;
+	}
+}
+
+@media (min-width: 950px) {
+	.Jouw_g {
+		margin-left: 18rem !important;
+		background-color: #4c148b;
+		padding-left: 5rem;
+		padding-top: 3rem;
+		box-sizing: border-box;
+		width: 313px;
+	}
+}
+
+@media (min-width: 700px) {
+	.mess_kader {
+		margin-left: 5em;
+	} 
+}
+
+@media (min-width: 950px) {
+	.rnld_text {
+		margin-top: -2em;
+		margin-left: 43em;
+	}	
+}
+
+/*!
+ * Start Bootstrap - Half Slider (https://startbootstrap.com/template-overviews/half-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-half-slider/blob/master/LICENSE)
+ */
+
+.carousel-item {
+	height: 65vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.pers_home {
+	width: 285px;
+	height: 50px;
+	color: #6B4CF2;
+	border-color: #6B4CF2;
+	border-radius: 1rem;
+}
+
+.pers_home:hover {
+	width: 285px;
+	height: 50px;
+	color: #130229;
+	background-color: #6B4CF2;
+	border-color: #6B4CF2;
+}
+
+.display-3 {
+	color: black;
+}
+
+.jumbotron {
+}
+
+@media (min-width: 700px) {
+	.welkom{
+		display: none;
+	}
+}
+
+.ronaldo {
+	width: 450px;
+    height: auto;
+}
+
+.messi {
+	width: 300px; 
+	height: auto;
+}
+
+@media (max-width: 500px) {
+	.messi {
+		margin-left: 2.2em !important;
+	}
+}
+
+.home_grond {
+	width: 300px; 
+	height: auto;
+}
+
+@media (max-width: 500px) {
+	.home_grond {
+		display: none;
+	}
+}
+
+.ga_naar {
+	color: #ee725a;
+	border-color: #ee725a;
+	border-radius: 1rem;
+}
+
+.ga_naar:hover {
+	color: #130229;
+	background-color: #ee725a;
+	border-color: #ee725a;
+}
+
+.naar_prd {
+	color: #ee725a;
+	border-color: #ee725a;
+	background-color: #4c148b;
+	border-radius: 1rem;
+	margin-bottom: 1.8em;
+}
+
+.naar_prd:hover {
+	color: #130229;
+	background-color: #ee725a;
+	border-color: #ee725a;
+}
+
+
+.ondertitel {
+	color: #00eef5;
+	text-align: center !important;
+}
+
+
+@media (min-width: 950px) {
+	.ondertitel {
+		text-align: left !important;
+		margin-left: 5rem;
+	}
+}
+
+.ondertitel2 {
+	color: #00eef5;
+	text-align: center !important;
+}
+
+@media (min-width: 700px) {
+	.ondertitel2 {
+		text-align: left !important;
+	}
+}
+
+.midden {
+	text-align: center;
+}
+
+@media (min-width: 950px) {
+	.midden {
+		text-align: left;
+		margin-left: 5rem;
+	}
+}
+
+
+/* PRODUCT scss */
+/* PRODUCT scss */
+/* PRODUCT scss */
+
+.hide-bullets {
+	list-style:none;
+	margin-left: -40px;
+	margin-top:20px;
+}
+
+.product_head {
+	border: 1px solid black;
+	width: 400px;
+}
+
+.product_mini {
+	border: 1px solid black;
+	width: 130px;
+}
+
+.product_samenstel {
+	border: 1px solid black;
+	width: 600px;
+	height: 200px;
+}
+
+label:before {
+    background-image: url(../path/to/images/nike2.jpg);
+}
+
+:checked + label:before {
+    background-image: url(../path/to/images/nike3.jpg);
+}
+
+.samenstellen_title {
+	color: #7b148b;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 2rem;
+	margin-top: 5rem;
+}
+
+@media (min-width: 950px) {
+	.samenstellen_title {
+		color: #7b148b;
+		font-style: italic;
+		margin-left: 3rem;
+		margin-bottom: 2rem;
+		margin-top: 5rem;
+	}
+}
+
+.kies_b {
+	border: 1px solid #00eef5;
+	border-radius: 1rem;
+	background-color: #00edf51d;
+}
+
+.center_block2 {
+	margin-bottom: 7rem !important;
+}
+
+.img-thumbnail {
+	padding: 0rem !important;
+	background-color: none !important;
+	border: 1px solid #00eef5;
+	border-radius: 0.25rem;
+	max-width: 100%;
+	height: auto;
+}
+
+@media (min-width: 750px) {
+	.img-thumbnail {
+		padding: 0rem !important;
+		background-color: none !important;
+		border: 1px solid #00eef5;
+		border-radius: 0.25rem;
+		max-width: 25%;
+		height: auto;
+	}
+}
+
+@media (min-width: 950px) {
+	.img-thumbnail {
+		padding: 0rem !important;
+		background-color: none !important;
+		border: 1px solid #00eef5;
+		border-radius: 0.25rem;
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+@media (min-width: 950px) {
+	.center_block2 {
+		margin-left: 43.25rem;
+	}
+	
+}
+
+.stap {
+	color:#ee725a;
+	padding-top: 5em;
+	padding-bottom: 2em;
+	text-align: center;
+	border-bottom: 1px solid #ee725a;
+}
+
+/* winkelwagentje */
+/* winkelwagentje */
+/* winkelwagentje */
+
+.wagen_item {
+	background-color: rgba(240, 248, 255, 0.066);
+}
+
+.wagen_pic {
+	width: auto;
+	height: 300px;
+}
+@media (max-width: 500px) {
+	.wagen_pic {
+		width: auto;
+		height: 260px;
+	}
+}
+
+.verwijder:hover {
+	color: #00eef5;
+}
+
+@media (max-width: 500px) {
+	.btn_mob1 {
+		width: 209px !important;
+	}
+}
+
+@media (min-width: 500px) {
+	.btn_left {
+		width: 300px !important;
+		margin-left: 120px !important;
+	}
+}
+
+@media (min-width: 950px) {
+	.btn_left {
+		width: 300px !important;
+		margin-left: 320px !important;
+	}
+}
+
+@media (min-width: 500px) {
+	.btn_right {
+		width: 300px !important;
+	}
+}
+
+/* CHECKOUT */
+/* CHECKOUT */
+/* CHECKOUT */
+
+@media (min-width: 950px) {
+	.form-group {
+		width: 300px;
+	}
+}
+
+@media (min-width: 950px) {
+	.check_pic {
+		border: 1px solid black;
+		width: 200px;
+		height: 200px;
+		margin-left: 20rem !important;
+	}
+}
+
+@media (min-width: 950px) {
+	.center_block {
+		margin-left: 19rem;
+	}
+}
+
+.bottom_block {
+	margin-bottom: 7rem !important;
+}
+
+
+@media (min-width: 950px) {
+	.center_block1 {
+		margin-left: 39.5rem;
+		margin-bottom: 7rem !important;
+	}
+}
+
+@media (min-width: 950px) {
+	.center_block3 {
+		margin-right: 30.5rem;
+		margin-bottom: 7rem !important;
+	}
+}
+
+.bed1 {
+	padding-bottom: 7rem !important;
+}
+
+@media (max-width: 950px) {
+	.check_md  {
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+}
+
+
+/* Over ons */
+/* Over ons */
+/* Over ons */
+
+.OO_Big {
+	color: #00eef5;
+}
+
+.OO_lil {
+	color: #7b148b;
+}
+
+/* CONTACT scss */
+/* CONTACT scss */
+/* CONTACT scss */
+
+.foto_OO {
+	border-radius: 50%;
+}
+
+.kader1{
+	border-bottom: 1px solid #00eef5;
+}
+
+.kader2{
+	border: 1px solid black;
+	height: 60px;
+}
+
+.kader3 {
+	border: 1px solid black;
+	height: 200px;
+}
+
+.kader4 {
+	border-bottom: 5px solid #00eef5;
+}
+
+@media (min-width: 950px) {
+	.center_contact {
+		margin-left: 20.25rem;
+	}
+}
+
+.bed1 {
+	padding-bottom: 7rem !important;
+}
+
+
+.wink_r {
+	text-align: center;
+	font-size: 3rem;
+}
+
+@media (min-width: 950px) {
+	.wink_r {
+		text-align: right;
+		margin-left: 18rem;
+		font-size: 1.25rem;
+	}
+}
+
+.wink_l {
+	text-align: center;
+}
+
+@media (min-width: 950px) {
+	.wink_l {
+		text-align: left !important;
+	}
+}
+
+@media (min-width: 950px) {
+	.c_info {
+		margin-left: 15em;
+	}
+}

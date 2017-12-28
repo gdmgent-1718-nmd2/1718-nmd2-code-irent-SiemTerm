@@ -1,0 +1,85 @@
+/* navigation */
+/* navigation */
+/* navigation */
+
+.container{
+		max-width: 1300px;
+    }
+
+.navigation {
+	height: 100px;
+	top: 0;
+	width: 100%;
+}
+
+.shop_c {
+	height: 35px;
+}
+
+@media (max-width: 500px) {
+	.shop_c {
+		display: none;
+	}
+}
+
+.h-nav {
+	transition: 0.3s ease;
+	color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+	border-top: 2px solid #372c52;
+	border-bottom: 2px solid #372c52;
+	padding: 20px 0;
+	margin: 0 20px;
+	background-color: #372c52;	
+	padding: 24px;
+	text-align: center;
+	font-family: oswald, sans-serif;
+}
+
+.h-nav:hover {
+	border-top: 2px solid #00eef5;
+	border-bottom: 2px solid #00eef5;
+	color: #00eef5 !important;
+	padding: 6px 0; 
+	margin-top: 18px;
+}
+
+.h-nav:active {
+	border-top: 2px solid #00eef5;
+	border-bottom: 2px solid #00eef5;
+	color: #00eef5 !important;
+	padding: 6px 0; 
+	margin-top: 18px;
+}
+
+body {
+	font-family: avenir, sans-serif;
+	line-height: 250%;
+	font-size: 1.25rem;
+	color: white;
+	background-image: url("http://www.johnshomeandyard.ca/wp-content/uploads/2016/02/Plain-Green-Grass-background.jpg");
+	background-size: 1700px 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: oswald, sans-serif;
+}
+
+.boven-light {
+	background-color: #372c52 !important;
+}
+
+.onder-light {
+	background-color: #130229 !important;
+
+}
+
+.navbar-brand {
+	color: #00eef5 !important;
+}
+
+.nav-link {
+	color: white !important;
+}
+

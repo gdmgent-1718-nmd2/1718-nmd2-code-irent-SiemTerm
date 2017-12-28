@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg navbar-light boven-light navigation fixed-top">
+	<div class="container">
+			<!-- websitelogo -->
+	<img class="navbar-brand float-right" src="{{ site.baseurl }}/images/SSR-LOGO.png" style="height: 4rem; width: auto;"></img>
+
+	<!-- hamburger icoon -->
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+  
+	<!-- hoofdnavigatie -->
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <ul class="navbar-nav ml-auto">
+		  {% assign links = site.data.navigation %}
+		  {% for link in links %}
+			  {% assign class = nil %}
+			  {% if page.url contains link.url %}
+				  {% assign class = 'active' %}
+			  {% endif %}
+			  {% if link.sublinks %}
+				  <li class="nav-item dropdown {{ class }}">
+					  <a href="{{ site.baseurl }}{{ link.url }}" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ link.title }} <span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+						  {% for sublink in link.sublinks %}
+								  <li class="dropdown-item">
+									  <a class="nav-link" href="{{ site.baseurl }}{{ sublink.url }}">{{ sublink.title }}</a>
+								  </li>
+						  {% endfor %}
+					  </ul>
+				  </li>
+			  {% else %}
+				  <li class="nav-item{{ class }}">
+					  <a class="nav-link h-nav" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+				  </li>
+			  {% endif %}
+		  {% endfor %}
+	  </ul>
+	</div>
+
+	<!-- winkelwagentje knop -->
+	<a class="" href="http://127.0.0.1:4000/1718-nmd2-code-irent/product/winkelwagen.html" target="blank">
+		<div class="col-md-2 col-xs-2">
+			<div>
+				<img class="shop_c" src="{{ site.baseurl }}/images/shopping-cart-white.png" alt="koopknop">
+			</div>
+		</div>
+	</a>
+	</div>
+</nav>
